@@ -7,7 +7,7 @@ This end-to-end data pipeline project transforms raw borrower financial data and
 
 ## Data Pipeline & Architecture
 The project follows a structured ETL (Extract, Transform, Load) pipeline:  
-**CSV → MySQL → SQL Views → Python Data Audit → Excel → Tableau**
+**CSV → MySQL → SQL Views → Python Data Cleaning → Excel → Tableau**
 
 1. **Database Ingestion:** Ingested three core raw datasets into a MySQL database (`sql_analytics3`) using the Python `sqlalchemy` engine.
 2. **SQL Auditing & Views:** Ran comprehensive data quality checks to identify missing salaries, credit scores, unlinked loan IDs, and invalid date formats. Created optimized SQL views (`v_loan_risk` and `v_loan_payments`) for stream processing.
