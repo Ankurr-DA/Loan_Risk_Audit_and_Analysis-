@@ -32,7 +32,7 @@ An interactive dashboard displaying key financial metrics: **$1.55B** Total Capi
 
 ![Dashboard 1 (1)](Dashboard%201%20(1).jpg)
 
-## 📁 Project Files Arrenged According to WorkFlow
+## Repository Structure
 
 * [`borrower_financials.csv`](./borrower_financials.csv) 
 * [`loan_log.csv`](./loan_log.csv) 
