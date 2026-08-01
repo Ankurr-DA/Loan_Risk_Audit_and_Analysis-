@@ -13,7 +13,7 @@ The project follows a structured ETL (Extract, Transform, Load) pipeline:
 2. **SQL Auditing & Views:** Ran comprehensive data quality checks to identify missing salaries, credit scores, unlinked loan IDs, and invalid date formats. Created optimized SQL views (`v_loan_risk` and `v_loan_payments`) for stream processing.
 3. **Python Cleaning & Normalization:** Standardized text strings, parsed monetary values by removing `$` and `,` characters, handled missing values, and converted string dates to standard `datetime` objects using `pandas`.
 4. **Audit Classification & Reporting:** Built a dynamic rule engine in Python (`np.select`) to flag non-compliant or risky transactions, producing two core executive exports:
-   * **Risk Category Report:** Aggregates total loans, total approved capital, and average credit score changes across flagged audit statuses (e.g., "High Risk", "At-Risk", "Missing Start Date") to determine if an account needs to be monitored or requires critical action.
+   * **Risk Category Report:** Aggregates total loans, total approved capital, and average credit score changes across flagged audit statuses to determine if an account needs to be monitored or requires critical action.
    * **Payment Performance Report:** Evaluates expected versus collected EMI across timing statuses (e.g., "60+ Days Late", "Underpaid (Partial)") to calculate uncollected shortfalls.
 5. **Dashboard Visualization:** Connected the output reports into a Tableau dashboard to highlight KPI metric cards and risk breakdowns.
 
