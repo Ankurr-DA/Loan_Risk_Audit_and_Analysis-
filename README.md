@@ -24,14 +24,18 @@ The project follows a structured ETL (Extract, Transform, Load) pipeline:
 ### 1. Risk Category Report
 Evaluates active loans based on borrower financial changes, specifically tracking drops in salary and credit score from origination to current status. It calculates total approved capital at risk and assigns a "System Action" (Performing, Monitor Account, Critical Action) to each risk bracket.
 
+<img width="1057" height="239" alt="image" src="https://github.com/user-attachments/assets/22ee56d4-1235-420f-b952-d5f0c83bfe79" />
+
 ### 2. Payment Performance Report
 Tracks expected EMI payments against actual collected amounts to identify uncollected cash shortfalls. It categorizes payment timing statuses (e.g., Unpaid, Paid Earlier, 1-30 Days Late) and assigns strict system actions for defaults and underpayments.
+
+<img width="1087" height="286" alt="image" src="https://github.com/user-attachments/assets/87401610-c3cb-49be-9493-6f910d9f8a4d" />
 
 ### 3. Live Tableau Executive Dashboard
 An interactive dashboard displaying key financial metrics: **$1.55B** Total Capital Exposure, **$1.69M** Uncollected Cash Shortfall, **4,000** Active Loan Portfolio Count, and an **82.91%** Collection Recovery Rate. The dashboard features breakdown charts for Capital Exposure by Risk Category, Expected vs. Collected EMI, Credit Score Trajectory, and Uncollected Shortfall Breakdown.
 
-> 📄 [**Tableau Dashboard Direct Link**](https://public.tableau.com/views/ForeignExchangeAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-<img width="1299" height="884" alt="Dashboard 1 (1)" src="https://github.com/user-attachments/assets/91c45aeb-3627-4926-9fac-3495a25d9893" />
+> 📄 [**Tableau Dashboard Direct Link**](https://public.tableau.com/views/LoanRiskAuditAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 
 ## Repository Structure
