@@ -35,6 +35,7 @@ Tracks expected EMI payments against actual collected amounts to identify uncoll
 An interactive dashboard displaying key financial metrics: **$1.55B** Total Capital Exposure, **$1.69M** Uncollected Cash Shortfall, **4,000** Active Loan Portfolio Count, and an **82.91%** Collection Recovery Rate. The dashboard features breakdown charts for Capital Exposure by Risk Category, Expected vs. Collected EMI, Credit Score Trajectory, and Uncollected Shortfall Breakdown.
 
 > 📄 [**Tableau Dashboard Direct Link**](https://public.tableau.com/views/LoanRiskAuditAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<img width="1199" height="799" alt="Dashboard 1 (1)" src="https://github.com/user-attachments/assets/6c0e0217-9f01-4682-bd01-df8a0ee9401e" />
 
 
 
