@@ -22,7 +22,7 @@ The project follows a structured ETL (Extract, Transform, Load) pipeline:
 ## Project Deliverables & Visual Preview
 
 ### 1. Risk Category Report
-Evaluates active loans based on borrower financial changes, specifically tracking drops in salary and credit score from origination to current status. It calculates total approved capital at risk and assigns a "System Action" (Performing, Monitor Account, Critical Action) to each risk bracket.
+Evaluates active loans based on borrower financial changes, specifically tracking drops in credit score from origination to current status. It calculates total approved capital at risk and assigns a "System Action" (Performing, Monitor Account, Critical Action) to each risk bracket.
 
 <img width="1057" height="239" alt="image" src="https://github.com/user-attachments/assets/22ee56d4-1235-420f-b952-d5f0c83bfe79" />
 
