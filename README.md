@@ -34,13 +34,22 @@ An interactive dashboard displaying key financial metrics: **$1.55B** Total Capi
 
 ## 📁 Project Files Arrenged According to WorkFlow
 
-* 1 - [`borrower_financials_2.csv`](./borrower_financials.csv) CSV
-* 2 - [`loan_log_2.csv`](./loan_log.csv) CSV
-* 3 - [`payment_ledger_2.csv`](./payment_ledger.csv) CSV
-* 4 - [`data_transfer3.py`](./data_transfer3.py) PYTHON
-* 5 - [`SQL_Analytics3.sql`](./SQL_Analytics3.sql) SQL 
-* 6 - [`python_analytics.py`](./python_analytics.py) PYTHON
-* 7 - [`Risk_Category_2.xlsx`](./Risk_Category.xlsx) EXCEL
-* 8 - [`Payment_Performance_2.xlsx`](./Payment_Performance.xlsx) EXCEL 
-* 9 - [`Loan Risk Audit & Analysis.twb`](./Loan%20Risk%20Audit%20%26%20Analysis.twbx) TABLEAU
+* [`borrower_financials_2.csv`](./borrower_financials.csv) 
+* [`loan_log_2.csv`](./loan_log.csv) 
+* [`payment_ledger_2.csv`](./payment_ledger.csv)
+
+--- 
+ 
+* [`data_transfer3.py`](./data_transfer3.py) 
+ --> [`SQL_Analytics3.sql`](./SQL_Analytics3.sql) 
+ --> [`python_analytics3.py`](./python_analytics3.py)
+
+ ---
+ 
+* [`Risk_Category.xlsx`](./Risk_Category.xlsx) 
+* [`Payment_Performance.xlsx`](./Payment_Performance.xlsx)
+
+ ---
+ 
+* [`Loan Risk Audit & Analysis.twbX`](./Loan%20Risk%20Audit%20%26%20Analysis.twbx) 
   
