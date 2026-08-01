@@ -49,6 +49,10 @@ An interactive dashboard displaying key financial metrics: **$1.55B** Total Capi
 * [`Risk_Category.xlsx`](./Risk_Category.xlsx) 
 * [`Payment_Performance.xlsx`](./Payment_Performance.xlsx)
 
+ ---
+ 
+* [`Loan Risk Audit & Analysis.twbX`](./Loan%20Risk%20Audit%20%26%20Analysis.twbx)
+
 ---
 
 ## Technologies Used
@@ -57,7 +61,4 @@ An interactive dashboard displaying key financial metrics: **$1.55B** Total Capi
 * **Reporting & Viz:** Excel, Tableau
 * **Environment:** VS Code
 
- ---
- 
-* [`Loan Risk Audit & Analysis.twbX`](./Loan%20Risk%20Audit%20%26%20Analysis.twbx) 
   
