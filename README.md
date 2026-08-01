@@ -34,15 +34,15 @@ An interactive dashboard displaying key financial metrics: **$1.55B** Total Capi
 
 ## 📁 Project Files Arrenged According to WorkFlow
 
-* [`borrower_financials_2.csv`](./borrower_financials.csv) 
-* [`loan_log_2.csv`](./loan_log.csv) 
-* [`payment_ledger_2.csv`](./payment_ledger.csv)
+* [`borrower_financials.csv`](./borrower_financials.csv) 
+* [`loan_log.csv`](./loan_log.csv) 
+* [`payment_ledger.csv`](./payment_ledger.csv)
 
 --- 
  
-* [`data_transfer3.py`](./data_transfer3.py) 
- --> [`SQL_Analytics3.sql`](./SQL_Analytics3.sql) 
- --> [`python_analytics3.py`](./python_analytics3.py)
+* [`data_transfer.py`](./data_transfer3.py) 
+ --> [`SQL_Analytics.sql`](./SQL_Analytics3.sql) 
+ --> [`python_analytics.py`](./python_analytics3.py)
 
  ---
  
